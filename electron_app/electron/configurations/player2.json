@@ -1,0 +1,148 @@
+{
+  "config_name": "player2",
+  "controler_type": "xbox",
+  "input_bindings": {
+    "XUSB_GAMEPAD_DPAD_UP": {
+      "model_path": "D:/Faks/dipl_rad/voice_input_emulator/models/wall-e.onnx",
+      "model_key": "wall-e",
+      "activation_treshold": 0.5
+    },
+    "XUSB_GAMEPAD_DPAD_DOWN": null,
+    "XUSB_GAMEPAD_DPAD_LEFT": null,
+    "XUSB_GAMEPAD_DPAD_RIGHT": null,
+    "XUSB_GAMEPAD_START": null,
+    "XUSB_GAMEPAD_BACK": null,
+    "XUSB_GAMEPAD_LEFT_THUMB": null,
+    "XUSB_GAMEPAD_RIGHT_THUMB": null,
+    "XUSB_GAMEPAD_LEFT_SHOULDER": null,
+    "XUSB_GAMEPAD_RIGHT_SHOULDER": null,
+    "XUSB_GAMEPAD_GUIDE": null,
+    "XUSB_GAMEPAD_A": null,
+    "XUSB_GAMEPAD_B": null,
+    "XUSB_GAMEPAD_X": {
+      "model_key": "wall-e",
+      "model_path": "D:\\Faks\\dipl_rad\\DiplomskiRad_Unity\\Assets\\StreamingAssets\\wall-e.onnx",
+      "activation_treshold": 0.5
+    },
+    "XUSB_GAMEPAD_Y": {
+      "model_key": "navigate_to_base",
+      "model_path": "C:\\Users\\Dominik\\OneDrive\\Radna površina\\navigate_to_base.onnx",
+      "activation_treshold": 0.5
+    },
+    "XUSB_GAMEPAD_LEFT_TRIGGER": null,
+    "XUSB_GAMEPAD_RIGHT_TRIGGER": null,
+    "XUSB_GAMEPAD_LEFT_STICK_UP": null,
+    "XUSB_GAMEPAD_LEFT_STICK_DOWN": null,
+    "XUSB_GAMEPAD_LEFT_STICK_LEFT": null,
+    "XUSB_GAMEPAD_LEFT_STICK_RIGHT": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_UP": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_DOWN": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_LEFT": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_RIGHT": null
+  },
+  "macros": [
+    {
+      "name": "grab",
+      "model_key": "wall-e",
+      "model_path": "D:/Faks/dipl_rad/voice_input_emulator/models/wall-e.onnx",
+      "activation_treshold": 0.5,
+      "input": [
+        {
+          "timestamp": 0,
+          "values": {
+            "XUSB_GAMEPAD_B": true,
+            "XUSB_GAMEPAD_Y": true
+          }
+        },
+        {
+          "timestamp": 150,
+          "values": {
+            "XUSB_GAMEPAD_B": false,
+            "XUSB_GAMEPAD_Y": false
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "uppercut",
+      "model_key": "",
+      "model_path": "",
+      "activation_treshold": 0,
+      "input": [
+        {
+          "timestamp": 0,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_Y": 0.121551513671875
+          }
+        },
+        {
+          "timestamp": 3,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": -0.13726806640625
+          }
+        },
+        {
+          "timestamp": 20,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": -0.2470703125
+          }
+        },
+        {
+          "timestamp": 27,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": -0.35687255859375
+          }
+        },
+        {
+          "timestamp": 43,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": -0.458831787109375
+          }
+        },
+        {
+          "timestamp": 56,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": -0.568634033203125
+          }
+        },
+        {
+          "timestamp": 180,
+          "values": {
+            "XUSB_GAMEPAD_Y": true
+          }
+        },
+        {
+          "timestamp": 284,
+          "values": {
+            "XUSB_GAMEPAD_Y": false
+          }
+        },
+        {
+          "timestamp": 367,
+          "values": {
+            "XUSB_GAMEPAD_X": true
+          }
+        },
+        {
+          "timestamp": 476,
+          "values": {
+            "XUSB_GAMEPAD_X": false
+          }
+        },
+        {
+          "timestamp": 564,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_Y": 0.819580078125
+          }
+        },
+        {
+          "timestamp": 571,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_Y": 0.55291748046875
+          }
+        }
+      ]
+    }
+  ]
+}

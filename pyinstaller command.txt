@@ -1,0 +1,1 @@
+pyinstaller --onefile --hidden-import=tqdm --hidden-import=sklearn.pipeline --hidden-import=sklearn.linear_model --collect-all=openwakeword --collect-all=sklearn detect_unity_activations.py

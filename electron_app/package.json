@@ -1,0 +1,61 @@
+{
+  "name": "voice-input-emulator",
+  "author": "Dominik Juršić",
+  "version": "0.1.0",
+  "description": "An app for adding voice input to all games that support controller input",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "electron": "^35.1.5",
+    "electron-builder": "^26.0.12",
+    "wait-on": "^8.0.3"
+  },
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix ui_app run dev\" \"npm run electron\"",
+    "electron": "wait-on http://localhost:5173 && electron .",
+    "start": "wait-on http://localhost:5173 && electron .",
+    "build": "cd ui_app && npm run build && cd .. && electron-builder"
+  },
+  "dependencies": {
+    "electron-store": "^7.0.0",
+    "sudo-prompt": "^9.2.1"
+  },
+  "build": {
+    "extraResources": [
+      {
+        "from": "electron/python",
+        "to": "electron/python"
+      },
+      {
+        "from": "electron/scripts",
+        "to": "electron/scripts"
+      },
+      {
+        "from": "electron/configurations/templates",
+        "to": "electron/configurations"
+      },
+      {
+        "from": "electron/models",
+        "to": "electron/models"
+      }
+    ],
+    "appId": "com.djursic.voiceinputemulator",
+    "productName": "Voice Input Emulator",
+    "files": [
+      "**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}

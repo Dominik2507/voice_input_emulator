@@ -1,0 +1,240 @@
+{
+  "config_name": "kiki konfig",
+  "controler_type": "xbox",
+  "input_bindings": {
+    "XUSB_GAMEPAD_DPAD_UP": null,
+    "XUSB_GAMEPAD_DPAD_DOWN": null,
+    "XUSB_GAMEPAD_DPAD_LEFT": null,
+    "XUSB_GAMEPAD_DPAD_RIGHT": null,
+    "XUSB_GAMEPAD_START": null,
+    "XUSB_GAMEPAD_BACK": null,
+    "XUSB_GAMEPAD_LEFT_THUMB": null,
+    "XUSB_GAMEPAD_RIGHT_THUMB": null,
+    "XUSB_GAMEPAD_LEFT_SHOULDER": null,
+    "XUSB_GAMEPAD_RIGHT_SHOULDER": null,
+    "XUSB_GAMEPAD_GUIDE": null,
+    "XUSB_GAMEPAD_A": null,
+    "XUSB_GAMEPAD_B": null,
+    "XUSB_GAMEPAD_X": null,
+    "XUSB_GAMEPAD_Y": null,
+    "XUSB_GAMEPAD_LEFT_TRIGGER": null,
+    "XUSB_GAMEPAD_RIGHT_TRIGGER": null,
+    "XUSB_GAMEPAD_LEFT_STICK_UP": null,
+    "XUSB_GAMEPAD_LEFT_STICK_DOWN": null,
+    "XUSB_GAMEPAD_LEFT_STICK_LEFT": null,
+    "XUSB_GAMEPAD_LEFT_STICK_RIGHT": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_UP": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_DOWN": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_LEFT": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_RIGHT": null
+  },
+  "macros": [
+    {
+      "id": 1,
+      "name": "change to orange",
+      "model_key": "fireball",
+      "model_path": "D:\\Faks\\dipl_rad\\voice_input_emulator\\electron_app\\electron\\models\\fireball.onnx",
+      "activation_treshold": 0.5,
+      "input": [
+        {
+          "timestamp": 0,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": 0.11370849609375
+          }
+        },
+        {
+          "timestamp": 8,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": 0.23919677734375
+          }
+        },
+        {
+          "timestamp": 15,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": 0.4117431640625
+          }
+        },
+        {
+          "timestamp": 24,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": 0.5999755859375
+          }
+        },
+        {
+          "timestamp": 40,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": 0.92938232421875
+          }
+        },
+        {
+          "timestamp": 99,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_Y": 0.01959228515625
+          }
+        },
+        {
+          "timestamp": 123,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_Y": -0.082366943359375
+          }
+        },
+        {
+          "timestamp": 188,
+          "values": {
+            "XUSB_GAMEPAD_A": true
+          }
+        },
+        {
+          "timestamp": 260,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_Y": -0.184326171875
+          }
+        },
+        {
+          "timestamp": 323,
+          "values": {
+            "XUSB_GAMEPAD_A": false
+          }
+        },
+        {
+          "timestamp": 732,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_Y": 0.12939453125
+          }
+        },
+        {
+          "timestamp": 740,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_Y": 0.341156005859375
+          }
+        },
+        {
+          "timestamp": 756,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_X": -0.223541259765625
+          }
+        },
+        {
+          "timestamp": 791,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_X": -0.003936767578125
+          }
+        },
+        {
+          "timestamp": 867,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_Y": 0.733306884765625
+          }
+        },
+        {
+          "timestamp": 871,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_Y": -0.29412841796875
+          }
+        },
+        {
+          "timestamp": 1199,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_Y": -0.286285400390625
+          }
+        },
+        {
+          "timestamp": 1331,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": 0.819580078125
+          }
+        },
+        {
+          "timestamp": 1343,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": 0.70977783203125
+          }
+        },
+        {
+          "timestamp": 1360,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": 0.607818603515625
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "change to blue",
+      "model_key": "wall-e",
+      "model_path": "D:\\Faks\\dipl_rad\\voice_input_emulator\\electron_app\\electron\\models\\wall-e.onnx",
+      "activation_treshold": 0.5,
+      "input": [
+        {
+          "timestamp": 50,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": 1
+          }
+        },
+        {
+          "timestamp": 100,
+          "values": {
+            "XUSB_GAMEPAD_LEFT_STICK_X": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "newMacro",
+      "model_key": "lock_on_target",
+      "model_path": "D:\\Faks\\dipl_rad\\voice_input_emulator\\electron_app\\electron\\models\\lock_on_target.onnx",
+      "activation_treshold": 0.5,
+      "input": [
+        {
+          "timestamp": 0,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_Y": -0.10589599609375
+          }
+        },
+        {
+          "timestamp": 7,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_Y": -0.207855224609375
+          }
+        },
+        {
+          "timestamp": 15,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_Y": -0.364715576171875
+          }
+        },
+        {
+          "timestamp": 23,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_Y": -0.552947998046875
+          }
+        },
+        {
+          "timestamp": 35,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_Y": -0.8431396484375
+          }
+        },
+        {
+          "timestamp": 136,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_Y": -0.709808349609375
+          }
+        },
+        {
+          "timestamp": 139,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_Y": -0.333343505859375
+          }
+        },
+        {
+          "timestamp": 152,
+          "values": {
+            "XUSB_GAMEPAD_RIGHT_STICK_Y": 0.074493408203125
+          }
+        }
+      ]
+    }
+  ]
+}

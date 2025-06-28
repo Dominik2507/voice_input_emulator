@@ -1,0 +1,279 @@
+{
+  "config_name": "tekken7",
+  "controler_type": "xbox",
+  "input_bindings": {
+    "XUSB_GAMEPAD_DPAD_UP": null,
+    "XUSB_GAMEPAD_DPAD_DOWN": null,
+    "XUSB_GAMEPAD_DPAD_LEFT": null,
+    "XUSB_GAMEPAD_DPAD_RIGHT": null,
+    "XUSB_GAMEPAD_START": null,
+    "XUSB_GAMEPAD_BACK": null,
+    "XUSB_GAMEPAD_LEFT_THUMB": null,
+    "XUSB_GAMEPAD_RIGHT_THUMB": null,
+    "XUSB_GAMEPAD_LEFT_SHOULDER": null,
+    "XUSB_GAMEPAD_RIGHT_SHOULDER": null,
+    "XUSB_GAMEPAD_GUIDE": null,
+    "XUSB_GAMEPAD_A": null,
+    "XUSB_GAMEPAD_B": null,
+    "XUSB_GAMEPAD_X": null,
+    "XUSB_GAMEPAD_Y": null,
+    "XUSB_GAMEPAD_LEFT_TRIGGER": null,
+    "XUSB_GAMEPAD_RIGHT_TRIGGER": null,
+    "XUSB_GAMEPAD_LEFT_STICK_UP": null,
+    "XUSB_GAMEPAD_LEFT_STICK_DOWN": null,
+    "XUSB_GAMEPAD_LEFT_STICK_LEFT": null,
+    "XUSB_GAMEPAD_LEFT_STICK_RIGHT": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_UP": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_DOWN": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_LEFT": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_RIGHT": null
+  },
+  "macros": [
+    {
+      "id": 1,
+      "name": "evil_intent",
+      "model_key": "wall-e",
+      "model_path": "D:\\Faks\\dipl_rad\\voice_input_emulator\\electron_app\\electron\\models\\wall-e.onnx",
+      "activation_treshold": 0.5,
+      "input": [
+        {
+          "timestamp": 0,
+          "values": {
+            "XUSB_GAMEPAD_DPAD_LEFT": true
+          }
+        },
+        {
+          "timestamp": 62,
+          "values": {
+            "XUSB_GAMEPAD_DPAD_LEFT": false
+          }
+        },
+        {
+          "timestamp": 218,
+          "values": {
+            "XUSB_GAMEPAD_DPAD_RIGHT": true
+          }
+        },
+        {
+          "timestamp": 345,
+          "values": {
+            "XUSB_GAMEPAD_Y": true
+          }
+        },
+        {
+          "timestamp": 377,
+          "values": {
+            "XUSB_GAMEPAD_DPAD_RIGHT": false
+          }
+        },
+        {
+          "timestamp": 454,
+          "values": {
+            "XUSB_GAMEPAD_Y": false
+          }
+        },
+        {
+          "timestamp": 532,
+          "values": {
+            "XUSB_GAMEPAD_X": true
+          }
+        },
+        {
+          "timestamp": 611,
+          "values": {
+            "XUSB_GAMEPAD_X": false
+          }
+        },
+        {
+          "timestamp": 657,
+          "values": {
+            "XUSB_GAMEPAD_Y": true
+          }
+        },
+        {
+          "timestamp": 797,
+          "values": {
+            "XUSB_GAMEPAD_Y": false
+          }
+        },
+        {
+          "timestamp": 1492,
+          "values": {
+            "XUSB_GAMEPAD_DPAD_LEFT": true
+          }
+        },
+        {
+          "timestamp": 1555,
+          "values": {
+            "XUSB_GAMEPAD_DPAD_LEFT": false
+          }
+        },
+        {
+          "timestamp": 1632,
+          "values": {
+            "XUSB_GAMEPAD_DPAD_RIGHT": true
+          }
+        },
+        {
+          "timestamp": 1695,
+          "values": {
+            "XUSB_GAMEPAD_Y": true
+          }
+        },
+        {
+          "timestamp": 1804,
+          "values": {
+            "XUSB_GAMEPAD_DPAD_RIGHT": false
+          }
+        },
+        {
+          "timestamp": 1819,
+          "values": {
+            "XUSB_GAMEPAD_Y": false
+          }
+        },
+        {
+          "timestamp": 1883,
+          "values": {
+            "XUSB_GAMEPAD_X": true
+          }
+        },
+        {
+          "timestamp": 1962,
+          "values": {
+            "XUSB_GAMEPAD_X": false
+          }
+        },
+        {
+          "timestamp": 2004,
+          "values": {
+            "XUSB_GAMEPAD_Y": true
+          }
+        },
+        {
+          "timestamp": 2159,
+          "values": {
+            "XUSB_GAMEPAD_Y": false
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "low_trick_kick",
+      "model_key": "hey_house",
+      "model_path": "D:\\Faks\\dipl_rad\\voice_input_emulator\\electron_app\\electron\\models\\hey_house.onnx",
+      "activation_treshold": 0.5,
+      "input": [
+        {
+          "timestamp": 0,
+          "values": {
+            "XUSB_GAMEPAD_Y": true
+          }
+        },
+        {
+          "timestamp": 93,
+          "values": {
+            "XUSB_GAMEPAD_Y": false
+          }
+        },
+        {
+          "timestamp": 139,
+          "values": {
+            "XUSB_GAMEPAD_X": true
+          }
+        },
+        {
+          "timestamp": 247,
+          "values": {
+            "XUSB_GAMEPAD_X": false
+          }
+        },
+        {
+          "timestamp": 329,
+          "values": {
+            "XUSB_GAMEPAD_B": true
+          }
+        },
+        {
+          "timestamp": 448,
+          "values": {
+            "XUSB_GAMEPAD_B": false
+          }
+        },
+        {
+          "timestamp": 496,
+          "values": {
+            "XUSB_GAMEPAD_B": true
+          }
+        },
+        {
+          "timestamp": 681,
+          "values": {
+            "XUSB_GAMEPAD_B": false
+          }
+        },
+        {
+          "timestamp": 2330,
+          "values": {
+            "XUSB_GAMEPAD_Y": true
+          }
+        },
+        {
+          "timestamp": 2439,
+          "values": {
+            "XUSB_GAMEPAD_Y": false
+          }
+        },
+        {
+          "timestamp": 2501,
+          "values": {
+            "XUSB_GAMEPAD_X": true
+          }
+        },
+        {
+          "timestamp": 2594,
+          "values": {
+            "XUSB_GAMEPAD_X": false
+          }
+        },
+        {
+          "timestamp": 2672,
+          "values": {
+            "XUSB_GAMEPAD_B": true
+          }
+        },
+        {
+          "timestamp": 2784,
+          "values": {
+            "XUSB_GAMEPAD_B": false
+          }
+        },
+        {
+          "timestamp": 2845,
+          "values": {
+            "XUSB_GAMEPAD_B": true
+          }
+        },
+        {
+          "timestamp": 2922,
+          "values": {
+            "XUSB_GAMEPAD_B": false
+          }
+        },
+        {
+          "timestamp": 2970,
+          "values": {
+            "XUSB_GAMEPAD_B": true
+          }
+        },
+        {
+          "timestamp": 3079,
+          "values": {
+            "XUSB_GAMEPAD_B": false
+          }
+        }
+      ]
+    }
+  ]
+}

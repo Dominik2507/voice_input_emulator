@@ -1,0 +1,32 @@
+{
+    "config_name": "player1",
+    "controler_type": "xbox",
+    "input_bindings": {
+      "XUSB_GAMEPAD_DPAD_UP": null,
+      "XUSB_GAMEPAD_DPAD_DOWN": null,
+      "XUSB_GAMEPAD_DPAD_LEFT": null,
+      "XUSB_GAMEPAD_DPAD_RIGHT": null,
+      "XUSB_GAMEPAD_START": null,
+      "XUSB_GAMEPAD_BACK": null,
+      "XUSB_GAMEPAD_LEFT_THUMB": null,
+      "XUSB_GAMEPAD_RIGHT_THUMB": null,
+      "XUSB_GAMEPAD_LEFT_SHOULDER": null,
+      "XUSB_GAMEPAD_RIGHT_SHOULDER": null,
+      "XUSB_GAMEPAD_GUIDE": null,
+      "XUSB_GAMEPAD_A": null,
+      "XUSB_GAMEPAD_B": null,
+      "XUSB_GAMEPAD_X": null,
+      "XUSB_GAMEPAD_Y": null,
+      "XUSB_GAMEPAD_LEFT_TRIGGER": null,
+      "XUSB_GAMEPAD_RIGHT_TRIGGER": null,
+      "XUSB_GAMEPAD_LEFT_STICK_UP": null,
+      "XUSB_GAMEPAD_LEFT_STICK_DOWN": null,
+      "XUSB_GAMEPAD_LEFT_STICK_LEFT": null,
+      "XUSB_GAMEPAD_LEFT_STICK_RIGHT": null,
+      "XUSB_GAMEPAD_RIGHT_STICK_UP": null,
+      "XUSB_GAMEPAD_RIGHT_STICK_DOWN": null,
+      "XUSB_GAMEPAD_RIGHT_STICK_LEFT": null,
+      "XUSB_GAMEPAD_RIGHT_STICK_RIGHT": null
+    },
+    "macros": []
+  }

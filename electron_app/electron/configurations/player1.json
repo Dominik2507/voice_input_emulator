@@ -1,0 +1,56 @@
+{
+  "config_name": "player1",
+  "controler_type": "xbox",
+  "input_bindings": {
+    "XUSB_GAMEPAD_DPAD_UP": null,
+    "XUSB_GAMEPAD_DPAD_DOWN": null,
+    "XUSB_GAMEPAD_DPAD_LEFT": null,
+    "XUSB_GAMEPAD_DPAD_RIGHT": null,
+    "XUSB_GAMEPAD_START": null,
+    "XUSB_GAMEPAD_BACK": null,
+    "XUSB_GAMEPAD_LEFT_THUMB": null,
+    "XUSB_GAMEPAD_RIGHT_THUMB": null,
+    "XUSB_GAMEPAD_LEFT_SHOULDER": null,
+    "XUSB_GAMEPAD_RIGHT_SHOULDER": null,
+    "XUSB_GAMEPAD_GUIDE": null,
+    "XUSB_GAMEPAD_A": null,
+    "XUSB_GAMEPAD_B": null,
+    "XUSB_GAMEPAD_X": null,
+    "XUSB_GAMEPAD_Y": null,
+    "XUSB_GAMEPAD_LEFT_TRIGGER": null,
+    "XUSB_GAMEPAD_RIGHT_TRIGGER": null,
+    "XUSB_GAMEPAD_LEFT_STICK_UP": null,
+    "XUSB_GAMEPAD_LEFT_STICK_DOWN": null,
+    "XUSB_GAMEPAD_LEFT_STICK_LEFT": null,
+    "XUSB_GAMEPAD_LEFT_STICK_RIGHT": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_UP": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_DOWN": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_LEFT": null,
+    "XUSB_GAMEPAD_RIGHT_STICK_RIGHT": null
+  },
+  "macros": [
+    {
+      "id": 1,
+      "name": "back_grab",
+      "model_key": "wall-e",
+      "model_path": "D:\\Faks\\dipl_rad\\voice_input_emulator\\electron_app\\electron\\models\\wall-e.onnx",
+      "activation_treshold": 0.5,
+      "input": [
+        {
+          "timestamp": 0,
+          "values": {
+            "XUSB_GAMEPAD_B": true,
+            "XUSB_GAMEPAD_Y": true
+          }
+        },
+        {
+          "timestamp": 150,
+          "values": {
+            "XUSB_GAMEPAD_B": false,
+            "XUSB_GAMEPAD_Y": false
+          }
+        }
+      ]
+    }
+  ]
+}
